@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="redis_pub_sub:war exploded">
+    <output-path>$PROJECT_DIR$/target/redis_pub_sub-0.0.1-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="redis_pub_sub/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="redis_pub_sub" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.3" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.4.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.6.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.0" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
